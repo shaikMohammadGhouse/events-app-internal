@@ -40,3 +40,4 @@ CMD ["npm", "start"]
 
 #to pass commands to internal image use following using -e
 
+#docker rmi <imageID> to remove images all containers should be removed before delteing images
