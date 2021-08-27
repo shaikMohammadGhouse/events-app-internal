@@ -6,8 +6,8 @@ WORKDIR /app
 RUN npm install
 
 #start the express app
-CMD ["npm", "start"]
-
+#local CMD ["npm", "start"]
+CMD ["node", "server.js"]
 
 #steps to run
 #docker --version
